@@ -1,0 +1,9 @@
+/* ── FOOTER ── */
+footer {
+  background: var(--color-ink);
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  padding: 28px var(--section-padding-x);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+}

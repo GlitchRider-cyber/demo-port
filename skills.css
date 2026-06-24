@@ -1,0 +1,43 @@
+/* ── DESIGN TOKENS ── */
+:root {
+  /* Colors */
+  --color-ink:      #1a1a2e;
+  --color-sage:     #4a7c59;
+  --color-sage-lt:  #d6ead9;
+  --color-cream:    #f8f5f0;
+  --color-warm:     #e8e0d4;
+  --color-mist:     #f0ede8;
+  --color-text:     #3d3d3d;
+  --color-light:    #7a7a7a;
+  --color-white:    #ffffff;
+  --color-rule:     #cccccc;
+  --color-sage-dark:#3d6b4a;
+
+  /* Skills dark section */
+  --color-skills-bg:        #1a1a2e;
+  --color-skills-pill:      rgba(255,255,255,0.06);
+  --color-skills-pill-border:rgba(255,255,255,0.1);
+  --color-skills-pill-text: rgba(255,255,255,0.8);
+  --color-skills-ai:        rgba(74,124,89,0.15);
+  --color-skills-ai-border: rgba(74,124,89,0.4);
+  --color-skills-ai-text:   #7ab88a;
+  --color-skills-rule:      #2e2e4a;
+  --color-skills-label:     #7ab88a;
+
+  /* Typography */
+  --font-display: 'DM Serif Display', serif;
+  --font-body:    'DM Sans', sans-serif;
+
+  /* Spacing */
+  --section-padding-y: 90px;
+  --section-padding-x: 40px;
+  --max-width: 1100px;
+
+  /* Misc */
+  --radius: 6px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --shadow-card: 0 8px 40px rgba(0,0,0,0.06);
+  --shadow-hover: 0 12px 32px rgba(0,0,0,0.08);
+  --transition: 0.2s ease;
+}

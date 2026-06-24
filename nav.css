@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sakshi — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="css/variables.css"/>
+  <link rel="stylesheet" href="css/base.css"/>
+  <link rel="stylesheet" href="css/nav.css"/>
+  <link rel="stylesheet" href="css/hero.css"/>
+  <link rel="stylesheet" href="css/about.css"/>
+  <link rel="stylesheet" href="css/education.css"/>
+  <link rel="stylesheet" href="css/events.css"/>
+  <link rel="stylesheet" href="css/skills.css"/>
+  <link rel="stylesheet" href="css/contact.css"/>
+  <link rel="stylesheet" href="css/footer.css"/>
+  <link rel="stylesheet" href="css/animations.css"/>
+  <link rel="stylesheet" href="css/responsive.css"/>
+</head>
+<body>
+
+  <!-- ── NAVIGATION ── -->
+  <nav id="navbar">
+    <div class="nav-logo">Sakshi</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-inner">
+      <div class="hero-content fade-in">
+        <div class="hero-eyebrow">Open to opportunities</div>
+        <h1>Hi, I'm <em>Sakshi</em> —<br>Science graduate &amp; tech enthusiast</h1>
+        <p class="hero-bio">
+          Motivated BSc Microbiology student with a strong command of Microsoft Office and a growing edge in AI productivity tools. I bring curiosity, organisation, and fast learning to every task.
+        </p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+          <a href="#skills" class="btn btn-outline">View skills</a>
+        </div>
+      </div>
+      <div class="hero-card fade-in delay-1">
+        <div class="hero-card-title">At a glance</div>
+        <div class="stat-grid">
+          <div class="stat">
+            <div class="stat-num">3+</div>
+            <div class="stat-label">Events organised &amp; volunteered</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">BSc</div>
+            <div class="stat-label">Microbiology, 2026</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">MS</div>
+            <div class="stat-label">Office Suite — Excel, Word, PPT</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">AI</div>
+            <div class="stat-label">Tools for daily productivity</div>
+          </div>
+        </div>
+        <div class="card-tags">
+          <span class="tag tag--green">Computer Operator</span>
+          <span class="tag tag--green">AI Productivity</span>
+          <span class="tag">Delhi, India</span>
+          <span class="tag">Available now</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section class="about" id="about">
+    <div class="section-inner">
+      <div class="section-label">Who I am</div>
+      <h2>Curious mind, reliable hands</h2>
+      <div class="about-grid fade-in">
+        <div class="about-text">
+          <p>I'm a third-year BSc Microbiology student at Shaheed Rajguru College of Applied Sciences, Delhi. While my academic background is in life sciences, I've cultivated a genuine passion for technology — particularly how AI tools can make daily work faster and smarter.</p>
+          <p>I'm seeking a Computer Operator role where I can apply my Microsoft Office proficiency, attention to detail, and knowledge of AI tools to support efficient office operations. I learn fast, adapt easily, and take ownership of tasks.</p>
+          <p>Outside academics, I've been an active volunteer and event organiser — experiences that taught me coordination, communication, and staying calm under pressure.</p>
+        </div>
+        <div class="about-highlights">
+          <div class="highlight-item">
+            <div class="hi-icon">⚡</div>
+            <div class="hi-body">
+              <div class="hi-title">Fast learner</div>
+              <div class="hi-desc">Comfortable picking up new software, workflows, and processes quickly with minimal ramp-up time.</div>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="hi-icon">🤖</div>
+            <div class="hi-body">
+              <div class="hi-title">AI-powered productivity</div>
+              <div class="hi-desc">Uses AI tools for research, content drafting, data summarisation, and automating repetitive tasks.</div>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="hi-icon">🗂️</div>
+            <div class="hi-body">
+              <div class="hi-title">Detail-oriented</div>
+              <div class="hi-desc">Strong attention to accuracy in data entry, documentation, and reporting tasks.</div>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="hi-icon">🤝</div>
+            <div class="hi-body">
+              <div class="hi-title">Team player</div>
+              <div class="hi-desc">Proven collaborator through multi-team event management and volunteer coordination.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EDUCATION ── -->
+  <section class="education" id="education">
+    <div class="section-inner">
+      <div class="section-label">Academic background</div>
+      <h2>Education</h2>
+      <div class="edu-list fade-in">
+        <div class="edu-item">
+          <div class="edu-year">2023 –<br>2026</div>
+          <div class="edu-details">
+            <div class="edu-school">Shaheed Rajguru College of Applied Sciences</div>
+            <div class="edu-degree">BSc in Microbiology</div>
+            <span class="edu-badge">Higher Education · Delhi University</span>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-year">2020 –<br>2022</div>
+          <div class="edu-details">
+            <div class="edu-school">Sarvodaya Co-ed Vidyalaya No. 1, Shakti Nagar</div>
+            <div class="edu-degree">Secondary Education · Class XII</div>
+            <span class="edu-badge">CBSE Board</span>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-year">2012 –<br>2020</div>
+          <div class="edu-details">
+            <div class="edu-school">Sarvodaya Kanya Vidyalaya, Shastri Nagar</div>
+            <div class="edu-degree">Primary Education</div>
+            <span class="edu-badge">CBSE Board</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EVENTS / EXPERIENCE ── -->
+  <section class="events" id="experience">
+    <div class="section-inner">
+      <div class="section-label">Involvement</div>
+      <h2>Events &amp; Volunteering</h2>
+      <div class="events-grid fade-in">
+        <div class="event-card">
+          <div class="event-role">Organising Team Member</div>
+          <div class="event-name">Karvaan Annual Fest</div>
+          <div class="event-desc">Core team member for Karvaan, the flagship annual cultural festival at Shaheed Rajguru College. Handled event planning, inter-team coordination, and on-ground management to ensure smooth execution across multiple activities.</div>
+        </div>
+        <div class="event-card">
+          <div class="event-role">Volunteer</div>
+          <div class="event-name">India Mushroom Days' 2024</div>
+          <div class="event-desc">Volunteered at this national-level professional event, supporting logistics, participant coordination, and hospitality. Gained hands-on experience managing large-scale events and interacting with delegates from across India.</div>
+        </div>
+        <div class="event-card">
+          <div class="event-role">Volunteer · Various Events</div>
+          <div class="event-name">College &amp; Inter-College Events</div>
+          <div class="event-desc">Regularly volunteered at departmental and inter-college events — handling registration, scheduling, and guest management. Built strong skills in communication, coordination, and working under pressure.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section class="skills" id="skills">
+    <div class="section-inner">
+      <div class="section-label">What I bring</div>
+      <h2>Skills</h2>
+      <div class="skills-grid fade-in">
+        <div class="skill-group">
+          <div class="skill-group-title">Core Skills</div>
+          <div class="skill-pills">
+            <span class="skill-pill">Cross-Selling</span>
+            <span class="skill-pill">Market Analysis</span>
+            <span class="skill-pill">Target Achievement</span>
+            <span class="skill-pill">Customer Service</span>
+            <span class="skill-pill">Retail Finance Operations</span>
+            <span class="skill-pill">Portfolio Monitoring</span>
+            <span class="skill-pill">Strong Convincing</span>
+            <span class="skill-pill">Negotiation Skills</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title">Technical Skills</div>
+          <div class="skill-pills">
+            <span class="skill-pill">Microsoft Excel</span>
+            <span class="skill-pill">Microsoft Word</span>
+            <span class="skill-pill">Microsoft PowerPoint</span>
+            <span class="skill-pill">Sales Presentation</span>
+            <span class="skill-pill">Sales MIS &amp; Reporting</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title">AI &amp; Productivity Tools</div>
+          <div class="skill-pills">
+            <span class="skill-pill skill-pill--ai">AI-Assisted Research</span>
+            <span class="skill-pill skill-pill--ai">Content Creation with AI</span>
+            <span class="skill-pill skill-pill--ai">AI for Office Productivity</span>
+            <span class="skill-pill skill-pill--ai">Prompt Engineering Basics</span>
+            <span class="skill-pill skill-pill--ai">AI Workflow Automation</span>
+            <span class="skill-pill skill-pill--ai">Data Summarisation with AI</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title">Interpersonal Skills</div>
+          <div class="skill-pills">
+            <span class="skill-pill">Communication</span>
+            <span class="skill-pill">Relationship Building</span>
+            <span class="skill-pill">Team Collaboration</span>
+            <span class="skill-pill">Problem Solving</span>
+            <span class="skill-pill">Time Management</span>
+            <span class="skill-pill">Customer Handling</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="contact" id="contact">
+    <div class="section-inner">
+      <div class="contact-inner fade-in">
+        <div class="section-label">Let's connect</div>
+        <h2>Get in touch</h2>
+        <p class="contact-intro">I'm actively looking for Computer Operator and related opportunities. Feel free to reach out directly — I'd love to hear from you.</p>
+        <div class="contact-cards">
+          <a href="tel:9643705660" class="contact-card">
+            <span class="contact-card-icon">📞</span>
+            <span>9643705660</span>
+          </a>
+          <a href="mailto:sumitsingh.cse02@gmail.com" class="contact-card">
+            <span class="contact-card-icon">✉️</span>
+            <span>sumitsingh.cse02@gmail.com</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <p>Designed &amp; built for Sakshi &nbsp;·&nbsp; 2025</p>
+  </footer>
+
+  <script src="js/animations.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>

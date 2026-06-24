@@ -1,0 +1,91 @@
+/* ── BASE ── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-cream);
+  color: var(--color-text);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Section wrapper */
+section {
+  padding: var(--section-padding-y) var(--section-padding-x);
+}
+
+.section-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+/* Section label (eyebrow text) */
+.section-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-sage);
+  margin-bottom: 12px;
+}
+
+/* Headings */
+h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  color: var(--color-ink);
+  margin-bottom: 48px;
+  line-height: 1.2;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: var(--radius);
+  font-size: 0.88rem;
+  font-weight: 600;
+  transition: all var(--transition);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--color-sage);
+  color: var(--color-white);
+}
+
+.btn-primary:hover {
+  background: var(--color-sage-dark);
+  transform: translateY(-1px);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--color-sage);
+  border: 1.5px solid var(--color-sage);
+}
+
+.btn-outline:hover {
+  background: var(--color-sage-lt);
+}
+
+/* Tags */
+.tag {
+  background: var(--color-mist);
+  color: var(--color-text);
+  font-size: 0.75rem;
+  padding: 5px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--color-warm);
+}
+
+.tag--green {
+  background: var(--color-sage-lt);
+  color: var(--color-sage);
+  border-color: #b8d9be;
+}

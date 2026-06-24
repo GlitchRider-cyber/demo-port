@@ -1,0 +1,54 @@
+/* ── EDUCATION ── */
+.education {
+  background: var(--color-cream);
+}
+
+.edu-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.edu-item {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 24px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--color-warm);
+  align-items: start;
+}
+
+.edu-item:last-child {
+  border-bottom: none;
+}
+
+.edu-year {
+  font-size: 0.78rem;
+  color: var(--color-light);
+  font-weight: 500;
+  padding-top: 4px;
+  line-height: 1.4;
+}
+
+.edu-school {
+  font-weight: 600;
+  color: var(--color-ink);
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.edu-degree {
+  font-size: 0.87rem;
+  color: var(--color-sage);
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.edu-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  background: var(--color-mist);
+  color: var(--color-light);
+  padding: 3px 10px;
+  border-radius: 20px;
+  border: 1px solid var(--color-warm);
+}

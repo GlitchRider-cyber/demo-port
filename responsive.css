@@ -1,0 +1,62 @@
+/* ── SKILLS ── */
+.skills {
+  background: var(--color-skills-bg);
+}
+
+.skills .section-label {
+  color: var(--color-skills-label);
+}
+
+.skills h2 {
+  color: var(--color-white);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 36px;
+}
+
+.skill-group-title {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-skills-label);
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--color-skills-rule);
+}
+
+.skill-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-pill {
+  background: var(--color-skills-pill);
+  color: var(--color-skills-pill-text);
+  font-size: 0.8rem;
+  padding: 6px 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-skills-pill-border);
+  transition: all 0.15s ease;
+}
+
+.skill-pill:hover {
+  background: rgba(74, 124, 89, 0.3);
+  border-color: var(--color-sage);
+  color: var(--color-white);
+}
+
+.skill-pill--ai {
+  background: var(--color-skills-ai);
+  border-color: var(--color-skills-ai-border);
+  color: var(--color-skills-ai-text);
+}
+
+.skill-pill--ai:hover {
+  background: rgba(74, 124, 89, 0.4);
+  color: var(--color-white);
+}
